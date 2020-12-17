@@ -38,7 +38,12 @@
   <ItemGroup>
     <Compile Include="Cache.cs" />
     <Compile Include="CacheItem.cs" />
+    <Compile Include="HttpCache.cs" />
     <Compile Include="RecencyDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
